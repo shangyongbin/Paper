@@ -105,7 +105,7 @@
 
 ## Dense-to-Dense
 
-carry high computational cost and memory consumption which make them hardly scalable for computer vision applications.
+> This approach carries high computational cost and memory consumption, which make them hardly scalable for computer vision applications.
 
 **:heavy_check_mark:Neighbourhood Consensus Networks**【2018】
 
@@ -119,7 +119,9 @@ carry high computational cost and memory consumption which make them hardly scal
 
 ## Sparse-to-Dense
 
-perform the detection stage asymmetrically. under strong visual changes, the need for repeatability in keypoint detection is alleviated, allowing each pixel to be a detection.
+> This paradigm performs the detection stage asymmetrically. 
+>
+> Under strong visual changes, the need for repeatability in keypoint detection is alleviated, allowing each pixel to be a detection.
 
 :heavy_check_mark:**Sparse-To-Dense Hypercolumn Matching for Long-Term Visual Localization** 【2019】
 
@@ -155,33 +157,19 @@ perform the detection stage asymmetrically. under strong visual changes, the nee
 
 :heavy_check_mark:**Tilde: a temporally invariant learned detector.** 【2015】
 
-trains a piece-wise linear regression model as the detector, that is robust to weather and illumination changes.
-
 :heavy_check_mark:**Learning covariant feature detectors.** 【2016】
-
-CNN models are trained with feature covariant constraints
 
 :heavy_check_mark:**Learning discriminative and transformation covariant local feature detectors.**【2017】
 
-CNN models are trained with feature covariant constraints
-
 :heavy_check_mark:**Quad-networks: unsupervised learning to rank for interest point detection** 【2017】
-
-assumes that the ranking of the keypoint scores should be invariant to image transformations.
 
 :heavy_check_mark:**Learning to detect features in texture images.** 【2018】
 
 :heavy_check_mark:**Repeatability is not enough: Learning affine regions via discriminability.** 【2018】
 
-learns to predict the affine parameters of a local feature via the hard negative constant loss based on the descriptors.
-
 **:heavy_check_mark:Key.net: Keypoint detection by handcrafted and learned cnn filters.** 【2019】
 
-combines hand-crafted filters with learned ones to extract keypoints at different scale levels.
-
 :heavy_check_mark:**ELF: Embedded Localisation of Features in pre-trained CNN** 【2019】
-
-pre-trained CNNs on standard tasks such as classifcation can be adapted to keypoint detection
 
 <a name="Local Feature Description"></a>
 
@@ -224,8 +212,6 @@ pre-trained CNNs on standard tasks such as classifcation can be adapted to keypo
 :heavy_check_mark:L2-net: Deep learning of disriminative patch descriptor in euclidean space. 【2017】
 
 :heavy_check_mark:Working hard to know your neighbor’s margins: Local descriptor learning loss. 【2017】
-
-combines triplet loss with a within-batch hard negative mining that has proven to be remarkably effective
 
 :heavy_check_mark:Learning deep descriptors with scale-aware triplet networks. 【2018】
 
