@@ -1,5 +1,9 @@
 # Image Matching Paper
 
+**更新中.../Updating...**
+
+
+
 <a name="Contents"></a>
 
 ### :hammer: **目录|Table of Content**
@@ -19,7 +23,7 @@
     - [learned](#learned-description)
   - [Joint Detection and Description](#Joint-Detection-and-Description)
     - [handcraft](#handcraft-d2)
-    - [handcraft](#handcraft-d2)
+    - [learned](#learned-d2)
 
 
 
@@ -41,6 +45,10 @@
 
 :heavy_check_mark: **Local Invariant Feature Detectors: A Survey** 【2007】
 
+:heavy_check_mark: **Image Matching from Handcrafted to Deep Features: A Survey** 【2020】
+
+论文/Paper：https://link.springer.com/article/10.1007/s11263-020-01359-2
+
 <a name="Benchmark"></a>
 
 ### Benchmark
@@ -49,30 +57,51 @@
 
 :heavy_check_mark: **Inloc: Indoor Visual Localization with Dense Matching and View Synthesis** 【2018】
 
+:heavy_check_mark:**The Visual Localization Benchmark**
+
+:heavy_check_mark:**Image Matching Benchmark**
+
+相关：[image-matching-benchmark-baseline](https://github.com/shangyongbin/image-matching-benchmark-baselines)
+
+
+
+## The Visual Localization Benchmark
+
 <a name="Dataset"></a>
 
 ### Dataset
 
 - **Image Matching**
 
-:heavy_check_mark: **HPatch dataset**
+  :heavy_check_mark: **HPatch dataset**
 
-说明：116个序列中使用108个序列，每个序列有6个图片。每个序列使用第一个匹配其他剩下5个，得到108*5=540个图像对。
+  总结：
 
-Evaluation protocol：
-- MMA (Mean Matching Accuracy)
+  链接/Link：
 
 - **Long-Term Visual Localization**
 
-:heavy_check_mark: **Aachen Day-Night dataset**
+  :heavy_check_mark: **Aachen Day-Night dataset**
 
-:heavy_check_mark: **RobotCar Seasons dataset**
+  使用：https://github.com/Midhun07/Night-to-day-Aachen-dataset
 
-:heavy_check_mark: **InLoc dataset** (challenging)
+  链接/Link：
+
+  :heavy_check_mark: **RobotCar Seasons dataset**
+
+  总结：
+
+  链接/Link：
+
+  :heavy_check_mark: **InLoc dataset** (challenging)
+
+  使用总结：
+
+  链接/Link：
 
 <a name="Dense-to-Dense"></a>
 
-[返回目录](#Contents)
+[返回目录/back](#Contents)
 
 
 
@@ -86,7 +115,7 @@ trains a CNN to search in the 4D space of all possible correspondences, with the
 
 
 
-[返回目录](#Contents)
+[返回目录/back](#Contents)
 
 
 
@@ -102,7 +131,7 @@ perform the detection stage asymmetrically. under strong visual changes, the nee
 
 
 
-[返回目录](#Contents)
+[返回目录/back](#Contents)
 
 
 
@@ -160,7 +189,7 @@ pre-trained CNNs on standard tasks such as classifcation can be adapted to keypo
 
 <a name="Local Feature Description"></a>
 
-[返回目录](#Contents)
+[返回目录/back](#Contents)
 
 ### 2. Local Feature Description: independent of the detectors
 
@@ -212,7 +241,7 @@ extends HardNet with and second-order loss.
 
 <a name="Joint-Detection-and-Description"></a>
 
-[返回目录](#Contents)
+[返回目录/back](#Contents)
 
 ### 3. Joint Detection and Description
 
@@ -222,46 +251,97 @@ extends HardNet with and second-order loss.
 
 :heavy_check_mark:Distinctive image features from scale-invariant keypoints. 【2004】
 
+总结：
+
+论文/Paper：http://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf
+
+代码/Code：
+
 :heavy_check_mark:SURF: Speeded Up Robust Features. 【2006】
+
+总结：
+
+论文/Paper：
+
+代码/Code：
 
 <a name="learned-d2"></a>
 
 #### (2) learned
 
-:heavy_check_mark:Lift: Learned in variant feature transform. 【2016】
+- **detect-then-describe**
 
-:heavy_check_mark:Superpoint: Self-supervised interest point detection and description. 【2018】【self-supervised】
+  :heavy_check_mark:**Lift: Learned in variant feature transform.** 【2016】
 
-leverages two separate decoders for detection and description on a shared encoder.
+  总结：
 
-Synthetic shapes and image pairs generated from random homographies are used to train the two parts.
+  论文/Paper：
 
-patch cropping is replaced by fully convolutional dense descriptors
+  代码/Code：
 
-:heavy_check_mark:Lf-net: learning local features from images. 【2018】【self-supervised】
+  :heavy_check_mark:**Lf-net: learning local features from images.** 【2018】【self-supervised】
 
-:heavy_check_mark:Rf-net: An end-to-end image matching network based on receptive field. 【2019】
+  总结：
 
-:heavy_check_mark:Contextdesc: Local descriptor augmentation with cross-modality context 【2019】
+  论文/Paper：
 
-:heavy_check_mark:R2d2: Repeatable and reliable detector and descriptor. 【2019】【self-supervised】
+  代码/Code：
 
-learning keypoints that are not only repeatable but also reliable together with robust descriptors.
+  :heavy_check_mark:**Rf-net: An end-to-end image matching network based on receptive field.** 【2019】
 
-:heavy_check_mark:D2-net: A trainable cnn for joint detection and description of local features. 【2019】
+  总结：
 
-learning keypoints that are not only repeatable but also reliable together with robust descriptors.
+  论文/Paper：
 
-:heavy_check_mark:Aslfeat: Learning local features of accurate shape and localization 【2020】
+  代码/Code：
 
-:heavy_check_mark:Sparse-To-Dense Hypercolumn Matching for Long-Term Visual Localization. 【2019】
+  :heavy_check_mark:**Contextdesc: Local descriptor augmentation with cross-modality context** 【2019】
 
-:heavy_check_mark:Sparse-To-Dense Hypercolumn Matching for Long-Term Visual Localization. 【2019】
+  总结：
 
-:heavy_check_mark:D2D: Keypoint Extraction with Describe to Detect Approach 【2020】
+  论文/Paper：
 
-description-guided detection
+  代码/Code：
+
+- **detect-and-describe**
+
+  :heavy_check_mark:**Superpoint: Self-supervised interest point detection and description.** 【2018】【self-supervised】
+
+  总结：
+
+  论文/Paper：https://arxiv.org/abs/1712.07629
+
+  代码/Code：[magicleap/SuperPointPretrainedNetwork](https://github.com/magicleap/SuperPointPretrainedNetwork) | [rpautrat/SuperPoint](https://github.com/rpautrat/SuperPoint) |[eric-yyjau/pytorch-superpoint](https://github.com/eric-yyjau/pytorch-superpoint)
+
+  :heavy_check_mark:**R2d2: Repeatable and reliable detector and descriptor.** 【2019】【self-supervised】
+
+  总结：
+
+  论文/Paper：https://arxiv.org/abs/1906.06195
+
+  代码/Code：https://github.com/naver/r2d2 | [视频](https://www.bilibili.com/video/av84172526/)
+
+  :heavy_check_mark:**Aslfeat: Learning local features of accurate shape and localization** 【2020】
+
+- **describe-and-detect** : description-guided detection
+
+  :heavy_check_mark:**D2-net: A trainable cnn for joint detection and description of local features.** 【2019】
+
+  总结：
+
+  论文/Paper：https://arxiv.org/abs/1905.03561
+
+  代码/Code：https://github.com/mihaidusmanu/d2-net
+
+  :heavy_check_mark:**D2D: Keypoint Extraction with Describe to Detect Approach** 【2020】
+
+  总结：
+
+  论文/Paper：https://arxiv.org/abs/2005.13605
+
+  代码/Code：None
 
 
 
-[返回目录](#Contents)
+[返回目录/back](#Contents)
+
