@@ -109,8 +109,6 @@ carry high computational cost and memory consumption which make them hardly scal
 
 **:heavy_check_mark:Neighbourhood Consensus Networks**【2018】
 
-trains a CNN to search in the 4D space of all possible correspondences, with the use of 4D convolutions.
-
 
 
 [返回目录/back](#Contents)
