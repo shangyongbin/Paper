@@ -4,20 +4,20 @@
 
 ### :hammer: **目录|Table of Content**
 
-- [Survey,Benchmark and Dataset](#Survey,Benchmark and Dataset)
+- [Survey,Benchmark and Dataset](#Survey-Benchmark-Dataset)
   - [Survey](#Survey)
   - [Benchmark](#Benchmark)
   - [Dataset](#Dataset)
 - [Dense-to-Dense](#Dense-to-Dense)
 - [Sparse-to-Dense](#Sparse-to-Dense)
 - [Sparse-to-Sparse](#Sparse-to-Sparse)
-  - [Local Feature Detection](#Local Feature Detection)
+  - [Local Feature Detection](#Local-Feature-Detection)
     - [handcraft](#handcraft-detection)
     - [learned](#learned-detection)
-  - [Local Feature Description](#Local Feature Description)
+  - [Local Feature Description](#Local-Feature-Description)
     - [handcraft](#handcraft-description)
     - [learned](#learned-description)
-  - [Joint Detection and Description](#Joint Detection and Description)
+  - [Joint Detection and Description](#Joint-Detection-and-Description)
     - [handcraft](#handcraft-d2)
     - [handcraft](#handcraft-d2)
 
@@ -31,7 +31,7 @@
 
 
 
-<a name="Survey,Benchmark and Dataset"></a>
+<a name="Survey-Benchmark-Dataset"></a>
 
 ## Survey,Benchmark and Dataset
 
@@ -110,7 +110,7 @@ perform the detection stage asymmetrically. under strong visual changes, the nee
 
 ## Sparse-to-Sparse
 
-<a name="Local Feature Detection"></a>
+<a name="Local-Feature-Detection"></a>
 
 ### 1. Local Feature Detection: not descriptor-specific
 
@@ -164,7 +164,7 @@ pre-trained CNNs on standard tasks such as classifcation can be adapted to keypo
 
 ### 2. Local Feature Description: independent of the detectors
 
-<a name="local patch datasets"></a>
+<a name="Local-Feature-Description"></a>
 
 #### (0) local patch datasets
 
@@ -210,7 +210,7 @@ combines triplet loss with a within-batch hard negative mining that has proven t
 
 extends HardNet with and second-order loss.
 
-<a name="Joint Detection and Description"></a>
+<a name="Joint-Detection-and-Description"></a>
 
 [返回目录](#Contents)
 
