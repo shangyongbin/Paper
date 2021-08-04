@@ -65,8 +65,6 @@
 
 
 
-## The Visual Localization Benchmark
-
 <a name="Dataset"></a>
 
 ### Dataset
