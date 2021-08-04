@@ -4,7 +4,7 @@
 
 ### :hammer: **目录|Table of Content**
 
-- [Survey, Benchmark and Dataset](#Survey, Benchmark and Dataset)
+- [Survey,Benchmark and Dataset](#Survey,Benchmark and Dataset)
   - [Survey](#Survey)
   - [Benchmark](#Benchmark)
   - [Dataset](#Dataset)
@@ -31,9 +31,9 @@
 
 
 
-<a name="Survey, Benchmark and Dataset"></a>
+<a name="Survey,Benchmark and Dataset"></a>
 
-## Survey, Benchmark and Dataset
+## Survey,Benchmark and Dataset
 
 <a name="Survey"></a>
 
