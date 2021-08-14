@@ -157,11 +157,15 @@
 
 :heavy_check_mark:**Tilde: a temporally invariant learned detector.** 【2015】
 
+use a principle similar to Homographic Adaptation.
+
 :heavy_check_mark:**Learning covariant feature detectors.** 【2016】
 
 :heavy_check_mark:**Learning discriminative and transformation covariant local feature detectors.**【2017】
 
-:heavy_check_mark:**Quad-networks: unsupervised learning to rank for interest point detection** 【2017】
+:heavy_check_mark:**Quad-networks: unsupervised learning to rank for interest point detection** 【2017】【无监督】
+
+patch-baed,relatively shallow 2-layer network.
 
 :heavy_check_mark:**Learning to detect features in texture images.** 【2018】
 
@@ -221,7 +225,7 @@
 
 :heavy_check_mark:**Contextdesc: Local descriptor augmentation with cross-modality context** 【2019】
 
-总结：
+总结：https://github.com/shangyongbin/Paper/blob/master/Image%20Matching/Paper/Sparse-to-Sparse/ContextDesc.md
 
 论文/Paper：https://arxiv.org/abs/1904.04084
 
