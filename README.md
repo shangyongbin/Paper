@@ -6,7 +6,7 @@
 
  :hand:欢迎不同见解与批评
 
-:telephone_receiver:fireworks:QQ: 3569556717；E-mail: ybshang@foxmail.com
+:telephone_receiver:QQ: 3569556717；E-mail: ybshang@foxmail.com
 
 |       folder name        | description                                                  |
 | :----------------------: | :----------------------------------------------------------- |
