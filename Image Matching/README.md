@@ -28,7 +28,6 @@
 
 
 
-
 ### :key: **关键词** | Keywords
 
 【TODO】
@@ -49,6 +48,18 @@
 
 论文/Paper：https://link.springer.com/article/10.1007/s11263-020-01359-2
 
+:heavy_check_mark:  On the Comparison of Classic and Deep Keypoint Detector and Descriptor Methods【2020】
+
+论文/Paper: https://arxiv.org/abs/2007.10000
+
+:heavy_check_mark:Features for Ground Texture Based Localization -- A Survey 【2020】
+
+论文/Paper: https://arxiv.org/abs/2002.11948
+
+
+
+
+
 <a name="Benchmark"></a>
 
 ### Benchmark
@@ -62,6 +73,10 @@
 :heavy_check_mark:**Image Matching Benchmark**
 
 相关：[image-matching-benchmark-baseline](https://github.com/shangyongbin/image-matching-benchmark-baselines)
+
+
+
+
 
 
 
@@ -145,35 +160,43 @@
 
 #### (1) handcraft
 
-**:heavy_check_mark:Brisk: Binary robust invariant scalable keypoints.** 【2011】
+:heavy_check_mark:Brisk: Binary robust invariant scalable keypoints. 【2011】
 
-:heavy_check_mark:**Kaze features**【2012，ECCV】
+:heavy_check_mark:Kaze features【2012，ECCV】
 
-:heavy_check_mark:**In the saddle: chasing fast and repeatable features.** 【2016】
+:heavy_check_mark:In the saddle: chasing fast and repeatable features. 【2016】
 
 <a name="learned-detection"></a>
 
 #### (2) learned
 
-:heavy_check_mark:**Tilde: a temporally invariant learned detector.** 【2015】
+:heavy_check_mark:Tilde: a temporally invariant learned detector. 【2015】
 
 use a principle similar to Homographic Adaptation.
 
-:heavy_check_mark:**Learning covariant feature detectors.** 【2016】
+:heavy_check_mark:Learning covariant feature detectors. 【2016】
 
-:heavy_check_mark:**Learning discriminative and transformation covariant local feature detectors.**【2017】
+:heavy_check_mark:Learning discriminative and transformation covariant local feature detectors.【2017】
 
-:heavy_check_mark:**Quad-networks: unsupervised learning to rank for interest point detection** 【2017】【无监督】
+:heavy_check_mark:Quad-networks: unsupervised learning to rank for interest point detection 【2017】【无监督】
 
 patch-baed,relatively shallow 2-layer network.
 
-:heavy_check_mark:**Learning to detect features in texture images.** 【2018】
+:heavy_check_mark:Learning to detect features in texture images. 【2018】
 
-:heavy_check_mark:**Repeatability is not enough: Learning affine regions via discriminability.** 【2018】
+:heavy_check_mark:Repeatability is not enough: Learning affine regions via discriminability. 【2018】
 
-**:heavy_check_mark:Key.net: Keypoint detection by handcrafted and learned cnn filters.** 【2019】
+:heavy_check_mark:Key.net: Keypoint detection by handcrafted and learned cnn filters. 【2019】
 
 :heavy_check_mark:**ELF: Embedded Localisation of Features in pre-trained CNN** 【2019】
+
+总结：
+
+论文/Paper：https://arxiv.org/abs/1907.03261
+
+代码/Code：https://github.com/abenbihi/elf
+
+
 
 <a name="Local Feature Description"></a>
 
@@ -187,9 +210,9 @@ patch-baed,relatively shallow 2-layer network.
 
 :heavy_check_mark:**Discriminative learning of local image descriptors.** 【2011】	
 
-:heavy_check_mark:**Hpatches: A benchmark and evaluation of handcrafted and learned local descriptors.** 【2017】
+:heavy_check_mark:Hpatches: A benchmark and evaluation of handcrafted and learned local descriptors. 【2017】
 
-:heavy_check_mark:**A large dataset for improving patch matching.** 【2018】
+:heavy_check_mark:A large dataset for improving patch matching. 【2018】
 
 <a name="handcraft-description"></a>
 
@@ -213,13 +236,25 @@ patch-baed,relatively shallow 2-layer network.
 
 :heavy_check_mark:Learning local feature descriptors with triplets and shallow convolutional neural networks 【2016】
 
-:heavy_check_mark:L2-net: Deep learning of disriminative patch descriptor in euclidean space. 【2017】
+:heavy_check_mark:**L2-net: Deep learning of disriminative patch descriptor in euclidean space.** 【2017】
+
+总结：https://www.cnblogs.com/eilearn/p/9998369.html
+
+论文/Paper：https://ieeexplore.ieee.org/document/8100132
+
+代码/Code：
 
 :heavy_check_mark:Working hard to know your neighbor’s margins: Local descriptor learning loss. 【2017】
 
 :heavy_check_mark:Learning deep descriptors with scale-aware triplet networks. 【2018】
 
-:heavy_check_mark:Local descriptors optimized for average precision. 【2018】
+:heavy_check_mark:**Local descriptors optimized for average precision.** 【2018】
+
+总结：直接优化AP
+
+论文/Paper：https://arxiv.org/abs/1804.05312
+
+代码/Code：
 
 :heavy_check_mark:Sosnet: Second order similarity regularization for local descriptor learning. 【2019】
 
@@ -249,7 +284,7 @@ patch-baed,relatively shallow 2-layer network.
 
 代码/Code：
 
-:heavy_check_mark:**SURF: Speeded Up Robust Features.** 【2006】
+:heavy_check_mark:SURF: Speeded Up Robust Features. 【2006】
 
 总结：
 
@@ -263,7 +298,7 @@ patch-baed,relatively shallow 2-layer network.
 
 - **detect-then-describe**
 
-  :heavy_check_mark:**Lift: Learned in variant feature transform.** 【2016】
+  **:heavy_check_mark:Lift: Learned in variant feature transform.** 【2016】
 
   总结：
 
@@ -307,7 +342,39 @@ patch-baed,relatively shallow 2-layer network.
 
   代码/Code：https://github.com/naver/r2d2 | [视频](https://www.bilibili.com/video/av84172526/)
 
-  :heavy_check_mark:**Aslfeat: Learning local features of accurate shape and localization** 【2020】
+  :heavy_check_mark:Aslfeat: Learning local features of accurate shape and localization 【2020】
+
+  总结：
+
+  论文/Paper：https://arxiv.org/abs/2003.10071v2
+
+  代码/Code：
+
+  :heavy_check_mark:**DenserNet: Weakly Supervised Visual Localization Using Multi-scale Feature Aggregation**【2021】
+
+  总结：
+
+  论文/Paper：https://arxiv.org/abs/2012.02366
+
+  代码/Code：
+
+  :heavy_check_mark:Realtime CNN-based Keypoint Detector with Sobel Filter and CNN-based Descriptor Trained with Keypoint Candidates【2020】
+
+  总结：
+
+  论文/Paper：http://arxiv.org/abs/2011.02119
+
+  代码/Code：
+
+  
+
+
+
+
+
+
+
+
 
 - **describe-and-detect** : description-guided detection
 
@@ -329,5 +396,15 @@ patch-baed,relatively shallow 2-layer network.
 
 
 
+
+
 [返回目录/back](#Contents)
+
+#### 4. Other
+
+:heavy_check_mark:Learning to assign orientations to feature points 【2016】
+
+
+
+:heavy_check_mark: Local keypoint-based Faster R-CNN【2020】
 

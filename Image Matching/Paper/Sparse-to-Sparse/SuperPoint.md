@@ -99,7 +99,7 @@
 
   - **Interest Point Decoder**
 
-    - 上采样层（upsampling layers，如SegNet）的缺点
+    - 上采样层（upsampling layers，如**SegNet**）的缺点
 
       a high amount of computation、 **checkerboard artifacts**
 
@@ -241,8 +241,6 @@ At the core of our method is a process that **applies random homographies to war
   - we use **the average response** across a large number of homographic warps of the input image.
 
     $N_h = 100$
-
-    - 
 
 - Iterative Homographic Adaptation
 

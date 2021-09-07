@@ -1,11 +1,5 @@
 # CNN基础
 
-:star2: 一个学习者的个人理解
-
-:fireworks: 欢迎提出不同见解与批评
-
-​       QQ: 3569556717；E-mail: ybshang@foxmail.com
-
 
 
 更新中...
