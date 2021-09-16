@@ -76,6 +76,14 @@
 
 
 
+:heavy_check_mark: An evaluation of feature matchers for  fundamental matrix estimation. 【2019】
+
+:heavy_check_mark: Comparative evaluation of hand-crafted and learned local  features. 【2017】
+
+
+
+:heavy_check_mark: Tanks and Temples: Benchmarking large-scale scene reconstruction.  【2017】
+
 
 
 
@@ -190,7 +198,7 @@ patch-baed,relatively shallow 2-layer network.
 
 :heavy_check_mark:**ELF: Embedded Localisation of Features in pre-trained CNN** 【2019】
 
-总结：
+总结：通过feature map的梯度图取阈值得到关键点。
 
 论文/Paper：https://arxiv.org/abs/1907.03261
 
@@ -342,6 +350,8 @@ patch-baed,relatively shallow 2-layer network.
 
   代码/Code：https://github.com/naver/r2d2 | [视频](https://www.bilibili.com/video/av84172526/)
 
+  :heavy_check_mark: Unsuperpoint: End-to-end  unsupervised interest point detector and descriptor 【2019】
+
   :heavy_check_mark:Aslfeat: Learning local features of accurate shape and localization 【2020】
 
   总结：
@@ -365,7 +375,7 @@ patch-baed,relatively shallow 2-layer network.
   论文/Paper：http://arxiv.org/abs/2011.02119
 
   代码/Code：
-
+  
   
 
 
@@ -407,4 +417,14 @@ patch-baed,relatively shallow 2-layer network.
 
 
 :heavy_check_mark: Local keypoint-based Faster R-CNN【2020】
+
+
+
+:heavy_check_mark: Circle loss: A unified perspective of pair similarity  optimization 【2020】
+
+总结：
+
+论文/Paper：https://arxiv.org/abs/2002.10857v2
+
+代码/Code：
 

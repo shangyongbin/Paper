@@ -8,7 +8,7 @@
 
 :fireworks: 欢迎不同见解与批评
 
-​       QQ: 3569556717；E-mail: ybshang@foxmail.com
+:telephone_receiver: QQ: 3569556717；E-mail: ybshang@foxmail.com
 
 
 
@@ -32,6 +32,8 @@
 
 ## Videos, Blogs
 
+**B站**
+
 - [吴恩达深度学习](#https://www.bilibili.com/video/BV1FT4y1E74V)
 
   深度学习基础。
@@ -44,19 +46,39 @@
 
   经典课程（没看...），这位[UP](https://space.bilibili.com/354943571/?spm_id_from=333.999.0.0)带学。
 
+  独有：网络的参数计算与占用内存分析。
+
 - [跟李沐学AI](https://space.bilibili.com/1567748478/?spm_id_from=333.999.0.0) :star:
 
-  《动手学深度学习》作者，大佬中的大佬。
+  大佬中的大佬。
 
-  ![image-20210907154700111](D:\workspace\Paper\Backbone\README.assets\image-20210907154700111.png)
+  分类+检测+分割+NLP。
+
+  讲解比较粗糙，但是大佬的看法才是可遇不可求~
 
 - [霹雳吧啦Wz](https://space.bilibili.com/18161609):star:
 
-  分类+检测，代码讲解非常细致。
+  分类+检测，代码讲解非常细致，赞。
 
-  ![image-20210907154634498](D:\workspace\Paper\Backbone\README.assets\image-20210907154634498.png)
+- [秋刀鱼的炼丹工坊](https://space.bilibili.com/823532) :star:
 
+  几分钟论文简述，拓宽视野。
 
+  对某篇感兴趣可自行深读。
+
+- [不想读paper](https://space.bilibili.com/24460257)
+
+  几分钟论文简述。
+
+  诶，小姐姐声音真好听~
+
+**油管**
+
+- [First Principles of Computer Vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw)
+
+  各个领域的传统方法。推荐Introduction。
+
+  [Introduction](https://www.youtube.com/playlist?list=PL2zRqk16wsdoz4eycyq7EmeV2KpE6JN76) **|** [Image Formation | Image Sensing | Binary Images](https://www.youtube.com/playlist?list=PL2zRqk16wsdr9X5rgF-d0pkzPdkHZ4KiT) **|** [Image Processing](https://www.youtube.com/playlist?list=PL2zRqk16wsdorCSZ5GWZQr1EMWXs2TDeu) **|** [Edge Detection | Boundary Detection | SIFT Detector](https://www.youtube.com/playlist?list=PL2zRqk16wsdqXEMpHrc4Qnb5rA1Cylrhx) **|** [Image Stitching | Face Detection](https://www.youtube.com/playlist?list=PL2zRqk16wsdp8KbDfHKvPYNGF2L-zQASc) **|** ....
 
 <a name="Survey-Benchmark-Dataset"></a>
 
@@ -101,6 +123,8 @@
 :heavy_check_mark: **VGGNet** 【2014】:star:
 
 总结：VGG block：`3x3 卷积`
+
+
 
 论文/Paper：https://arxiv.org/abs/1409.1556
 

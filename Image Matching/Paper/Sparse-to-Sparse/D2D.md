@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 #### Motivation
 
 - **detectors based on various saliency measures** where the saliency was defined in terms of local signal complexity or unpredictability; 
@@ -65,20 +69,20 @@
 
   - define the saliency in relative terms （the other descriptors in the neighbourhood）and in absolute terms （the information content of the descriptor）.
 
-    - Assumption 1
+    - **Assumption 1**
 
       A point in an image has **a high absolute saliency** if its corresponding descriptor is highly **informative**.
 
       - 图像检索中，saliency/attention is defined on image regions with rich semantic information
       - 特征匹配中，local image structures that exhibit significant variations in shape and texture can be considered salient
 
-    - Assumption 2
+    - **Assumption 2**
 
       A point in an image has **a high relative saliency** if its corresponding descriptor is highly **discriminative** in its spatial neighbourhood.
 
       - 单有the relative saliency是不够的。比如，均匀区域的角点有high relative saliency，但是描述符信息含量不高。
 
-    - Definition
+    - **Definition**
 
       A point in an image is a keypoint, if its corresponding descriptor’s absolute and relative saliencies are both high.
 
